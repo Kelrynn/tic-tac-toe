@@ -1,7 +1,13 @@
 Build Game Board:
   ✔ center a 3x3 grid @done (17-09-20 15:39)
   ✔ give it space to contain the x or o @done (17-09-20 15:39)
-  ☐ reset board (clears all boxes)
+  ✔ reset board (clears all boxes) @done (17-09-20 16:48)
+  ✔ style info and board @done (17-09-20 16:06)
+func resetBoard:
+  ✔ clear one box @done (17-09-20 16:47)
+  ✔ next box @done (17-09-20 16:48)
+  ✔ repeat until all 9 are clear @done (17-09-20 16:48)
 JS- Data:
   ☐ win condition
-  ☐ x vs o data
+  ✔ x vs o data @done (17-09-20 16:48)
+
