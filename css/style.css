@@ -5,6 +5,7 @@
 body {
 	background-color: #4c5454;
 	text-align: center;
+	margin: 30px;
 }
 
 table {
@@ -70,6 +71,18 @@ p {
 	border-radius: 5px;
 	height: 30px;
 	width: 600px;
+}
+
+#nextTurn {
+	height: 50px;
+	width: 300px;
+	background-color: red;
+	color: #4c5454;
+	border-radius: 5px;
+	text-align: center;
+	margin: 15px auto;
+	padding: 18px 0 0 0;
+	opacity: .3;
 }
 
 

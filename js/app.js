@@ -11,11 +11,14 @@ $('#p2').html(p2);
 
 function resetBoard() {
     $('td').removeClass('x o');
+
 }
 
 $('#reset').click(resetBoard);
 
 $('table').on('click', 'td', mark);
+$('#nextTurn').click(nextTurn);
+
 
 function mark() {
     console.log($(this));
@@ -29,7 +32,7 @@ function mark() {
 }
 
 function nextTurn(){
-	$('player').toggleClass('active');
+	$('.player').toggleClass('active');
 	currentPlayer = (currentPlayer + 1) % 2;
 	hasMarked = false;
 }
