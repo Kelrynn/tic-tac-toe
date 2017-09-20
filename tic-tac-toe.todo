@@ -1,0 +1,7 @@
+Build Game Board:
+  ✔ center a 3x3 grid @done (17-09-20 15:39)
+  ✔ give it space to contain the x or o @done (17-09-20 15:39)
+  ☐ reset board (clears all boxes)
+JS- Data:
+  ☐ win condition
+  ☐ x vs o data
